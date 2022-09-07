@@ -1,0 +1,14 @@
+@import "../vendor/normalize.css";
+@import "../blocks/page/page.css";
+@import "../vendor/fonts/inter.css";
+
+@import "../blocks/intro/intro.css";
+@import "../blocks/intro/__image/intro__image.css";
+@import "../blocks/intro/__title/intro__title.css";
+@import "../blocks/intro/__content/intro__content.css";
+@import "../blocks/intro/__paragraph/intro__paragraph.css";
+@import "../blocks/intro/__button/intro__button.css";
+@import "../blocks/intro/__signature/intro__signature.css";
+@import "../blocks/intro/__line/intro__line.css";
+@import "../blocks/intro/__signature/_text/intro__signature_text.css";
+

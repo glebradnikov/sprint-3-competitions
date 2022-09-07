@@ -1,0 +1,17 @@
+.intro__button {
+  width: 180px;
+  height: 50px;
+  background: #24B47E;
+  border-radius: 4px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 129%;
+  text-align: center;
+  letter-spacing: 1px;
+
+  color: #FFFFFF;
+  margin-bottom: 167px;
+}
