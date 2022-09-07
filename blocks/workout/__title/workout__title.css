@@ -1,0 +1,10 @@
+.workout__title {
+  width: 460px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 109%;
+  letter-spacing: -0.5px;
+  color: #151515;
+}

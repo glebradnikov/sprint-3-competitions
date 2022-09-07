@@ -2,6 +2,10 @@
 @import "../blocks/page/page.css";
 @import "../vendor/fonts/inter.css";
 
+@import "../blocks/item-content/item-content.css";
+@import "../blocks/item-content/__paragraph/item-content__paragraph.css";
+@import "../blocks/item-content/__title/item-content__title.css";
+
 @import "../blocks/intro/intro.css";
 @import "../blocks/intro/__image/intro__image.css";
 @import "../blocks/intro/__title/intro__title.css";
@@ -11,4 +15,18 @@
 @import "../blocks/intro/__signature/intro__signature.css";
 @import "../blocks/intro/__line/intro__line.css";
 @import "../blocks/intro/__signature/_text/intro__signature_text.css";
+
+@import "../blocks/coverages/coverages.css";
+@import "../blocks/coverages/__title/coverages__title.css";
+@import "../blocks/coverages/__paragraph/coverages__paragraph.css";
+@import "../blocks/coverages/__slider/coverages__slider.css";
+@import "../blocks/coverages/__slider-item/coverages__slider-item.css";
+
+@import "../blocks/workout/workout.css";
+@import "../blocks/workout/__title/workout__title.css";
+@import "../blocks/workout/__paragraph/workout__paragraph.css";
+@import "../blocks/workout/__content/workout__content.css";
+@import "../blocks/workout/__links/workout__links.css";
+@import "../blocks/workout/__link/workout__link.css";
+@import "../blocks/workout/__image/workout__image.css";
 
