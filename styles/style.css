@@ -58,3 +58,58 @@
 .main {
   padding: 74px 0 0;
 }
+
+/* quote */
+
+.quote {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 120px 18px 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
+}
+
+.quote__image {
+  width: 100%;
+  max-width: 650px;
+  max-height: 460px;
+}
+
+.quote__content {
+  flex: 1 0 470px;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.quote__text {
+  margin: 0;
+  font-size: 34px;
+  font-weight: 600;
+  line-height: 1.29;
+  letter-spacing: -.5px;
+  color: #151515;
+}
+
+.quote__author {}
+
+.quote__author-name {
+  margin: 0 0 6px 0;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.6;
+  color: #151515;
+}
+
+.quote__author-profession {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.75;
+  color: #222;
+  opacity: .7;
+}
