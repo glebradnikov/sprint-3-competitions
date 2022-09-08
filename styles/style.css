@@ -11,6 +11,7 @@
   position: fixed;
   top: 0;
   left: 0;
+  z-index: 1;
   width: 100%;
   background: #f4f4f4;
 }
@@ -50,7 +51,7 @@
 
 .header__link:hover {
   color: #ff3d00;
-  transition: .3s;
+  transition: .5s;
 }
 
 /* main */
