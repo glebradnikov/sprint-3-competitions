@@ -200,6 +200,10 @@
   text-decoration: none;
 }
 
+.bicycles__figure {
+  margin: 0;
+}
+
 .bicycles__card-link:hover {}
 
 .bicycles__image {
