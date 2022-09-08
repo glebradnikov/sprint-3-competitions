@@ -120,7 +120,7 @@
 .bicycles {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 60px 0;
+  padding: 60px 18px;
 }
 
 .bicycles__header {
