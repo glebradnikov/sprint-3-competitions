@@ -2,10 +2,6 @@
 @import "../blocks/page/page.css";
 @import "../vendor/fonts/inter.css";
 
-@import "../blocks/item-content/item-content.css";
-@import "../blocks/item-content/__paragraph/item-content__paragraph.css";
-@import "../blocks/item-content/__title/item-content__title.css";
-
 @import "../blocks/intro/intro.css";
 @import "../blocks/intro/__image/intro__image.css";
 @import "../blocks/intro/__title/intro__title.css";
@@ -17,10 +13,15 @@
 @import "../blocks/intro/__signature/_text/intro__signature_text.css";
 
 @import "../blocks/coverages/coverages.css";
+@import "../blocks/coverages/__content/coverages__content.css";
 @import "../blocks/coverages/__title/coverages__title.css";
 @import "../blocks/coverages/__paragraph/coverages__paragraph.css";
 @import "../blocks/coverages/__slider/coverages__slider.css";
 @import "../blocks/coverages/__slider-item/coverages__slider-item.css";
+@import "../blocks/coverages/__icon-background/coverages__icon-background.css";
+@import "../blocks/coverages/__icon/coverages__icon.css";
+@import "../blocks/coverages/__control/coverages__control.css";
+@import "../blocks/coverages/__button/coverages__button.css";
 
 @import "../blocks/workout/workout.css";
 @import "../blocks/workout/__title/workout__title.css";

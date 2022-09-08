@@ -1,7 +1,0 @@
-.item-content {
-  display: flex;
-  flex-direction: column;
-  margin-top: 80px;
-  margin-left: 120px;
-  row-gap: 50px;
-}

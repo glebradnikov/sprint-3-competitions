@@ -1,0 +1,16 @@
+.coverages__button {
+  width: 50px;
+  height: 50px;
+  padding: 0;
+  color: #151515;
+  background: #ebebeb;
+  border: 0;
+  border-radius: 100%;
+  transition: 1s;
+}
+
+.coverages__button:hover {
+  color: #fff;
+  background: #ff3d00;
+  transition: .5s;
+}
