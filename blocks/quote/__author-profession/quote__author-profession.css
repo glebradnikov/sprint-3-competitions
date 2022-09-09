@@ -1,0 +1,21 @@
+.quote__author-profession {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.75;
+  color: #222;
+  opacity: .7;
+}
+
+@media (max-width: 1023px) {
+  .quote__author-profession {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 767px) {
+  .quote__author-profession {
+    font-size: 10px;
+    line-height: 1.6;
+  }
+}

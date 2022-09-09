@@ -1,0 +1,6 @@
+@media (max-width: 767px) {
+  .header__nav_active {
+    top: 74px;
+    transition: 1s;
+  }
+}

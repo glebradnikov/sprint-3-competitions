@@ -1,0 +1,7 @@
+.workout__image {
+  width: 100%;
+  max-width: 580px;
+  height: 460px;
+  object-fit: cover;
+  overflow: hidden;
+}

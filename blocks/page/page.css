@@ -1,0 +1,10 @@
+.page {
+  font-family: Inter, sans-serif;
+  background: #f4f4f4;
+}
+
+@media (max-width: 767px) {
+  .page_locked {
+    overflow: hidden;
+  }
+}

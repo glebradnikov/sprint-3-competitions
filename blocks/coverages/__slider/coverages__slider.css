@@ -1,0 +1,10 @@
+.coverages__slider {
+  display: grid;
+  grid-template-columns:  1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 40px;
+  overflow: hidden;
+  margin-left: 120px;
+
+  position: relative;
+}
