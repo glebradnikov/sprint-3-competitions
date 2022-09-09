@@ -1,0 +1,6 @@
+.quote__content {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}

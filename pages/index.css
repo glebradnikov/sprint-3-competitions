@@ -1,6 +1,19 @@
-@import "../vendor/normalize.css";
-@import "../blocks/page/page.css";
-@import "../vendor/fonts/inter.css";
+@import url(../vendor/normalize.css);
+
+@import url(../vendor/fonts/fonts.css);
+
+@import url(../blocks/page/page.css);
+
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__container/header__container.css);
+@import url(../blocks/header/__burger/header__burger.css);
+@import url(../blocks/header/__span/header__span.css);
+@import url(../blocks/header/__nav/header__nav.css);
+@import url(../blocks/header/__nav/_active/header__nav_active.css);
+@import url(../blocks/header/__list/header__list.css);
+@import url(../blocks/header/__link/header__link.css);
+
+@import url(../blocks/main/main.css);
 
 @import "../blocks/intro/intro.css";
 @import "../blocks/intro/__image/intro__image.css";
@@ -11,6 +24,13 @@
 @import "../blocks/intro/__signature/intro__signature.css";
 @import "../blocks/intro/__line/intro__line.css";
 @import "../blocks/intro/__signature/_text/intro__signature_text.css";
+
+@import url(../blocks/quote/quote.css);
+@import url(../blocks/quote/__image/quote__image.css);
+@import url(../blocks/quote/__content/quote__content.css);
+@import url(../blocks/quote/__text/quote__text.css);
+@import url(../blocks/quote/__author-name/quote__author-name.css);
+@import url(../blocks/quote/__author-profession/quote__author-profession.css);
 
 @import "../blocks/coverages/coverages.css";
 @import "../blocks/coverages/__content/coverages__content.css";
@@ -23,6 +43,23 @@
 @import "../blocks/coverages/__control/coverages__control.css";
 @import "../blocks/coverages/__button/coverages__button.css";
 
+@import url(../blocks/bicycles/bicycles.css);
+@import url(../blocks/bicycles/__header/bicycles__header.css);
+@import url(../blocks/bicycles/__title/bicycles__title.css);
+@import url(../blocks/bicycles/__list/bicycles__list.css);
+@import url(../blocks/bicycles/__link/bicycles__link.css);
+@import url(../blocks/bicycles/__link/_active/bicycles__link_active.css);
+@import url(../blocks/bicycles/__select/bicycles__select.css);
+@import url(../blocks/bicycles/__option/bicycles__option.css);
+@import url(../blocks/bicycles/__card-list/bicycles__card-list.css);
+@import url(../blocks/bicycles/__card-item/bicycles__card-item.css);
+@import url(../blocks/bicycles/__card-link/bicycles__card-link.css);
+@import url(../blocks/bicycles/__figure/bicycles__figure.css);
+@import url(../blocks/bicycles/__image/bicycles__image.css);
+@import url(../blocks/bicycles/__image-caption/bicycles__image-caption.css);
+@import url(../blocks/bicycles/__dots/bicycles__dots.css);
+@import url(../blocks/bicycles/__dot/bicycles__dot.css);
+
 @import "../blocks/workout/workout.css";
 @import "../blocks/workout/__title/workout__title.css";
 @import "../blocks/workout/__paragraph/workout__paragraph.css";
@@ -31,3 +68,10 @@
 @import "../blocks/workout/__link/workout__link.css";
 @import "../blocks/workout/__image/workout__image.css";
 
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__container/footer__container.css);
+@import url(../blocks/footer/__form/footer__form.css);
+@import url(../blocks/footer/__label/footer__label.css);
+@import url(../blocks/footer/__email/footer__email.css);
+@import url(../blocks/footer/__button/footer__button.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);

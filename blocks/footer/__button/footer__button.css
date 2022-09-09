@@ -1,0 +1,23 @@
+.footer__button {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 180px;
+  min-height: 50px;
+  margin: 0;
+  padding: 11px 20px;
+  display: none;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.29;
+  letter-spacing: 1px;
+  color: #fff;
+  background: #24b47e;
+  border: 1px solid #c7c7c780;
+  border-radius: 4px;
+  transition: 1s;
+}
+
+.footer__button:hover {
+  background: #ff3d00;
+  transition: .5s;
+}

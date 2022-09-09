@@ -1,0 +1,27 @@
+.bicycles__image-caption {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.22;
+  color: #151515;
+  transition: 1s;
+}
+
+.bicycles__card-link:hover .bicycles__image-caption {
+  color: #ff3d00;
+  transition: .5s;
+}
+
+@media (max-width: 1023px) {
+  .bicycles__image-caption {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 767px) {
+  .bicycles__image-caption {
+    padding: 0;
+    font-size: 14px;
+    line-height: 1.29;
+    text-align: center;
+  }
+}

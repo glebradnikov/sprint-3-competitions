@@ -1,0 +1,11 @@
+.bicycles__link_active {
+  font-weight: 600;
+  color: #151515;
+  opacity: 1;
+  transition: 1s;
+}
+
+.bicycles__link_active:hover {
+  color: #ff3d00;
+  transition: .5s;
+}
