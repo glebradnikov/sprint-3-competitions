@@ -5,5 +5,21 @@
   font-weight: 600;
   font-size: 18px;
   line-height: 156%;
+  text-decoration: none;
   color: #151515;
 }
+
+
+@media (max-width: 1024px) {
+  .workout__paragraph {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 767px) {
+  .workout__paragraph {
+    font-size: 14px;
+    line-height: 1.43;
+  }
+}
+

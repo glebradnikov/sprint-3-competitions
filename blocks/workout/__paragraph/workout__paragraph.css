@@ -9,3 +9,17 @@
   margin-top: 0;
   margin-bottom: 182px;
 }
+
+@media (max-width: 1024px) {
+  .workout__paragraph {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 767px) {
+  .workout__paragraph {
+    margin: 0 0 40px 0;
+    font-size: 12px;
+    line-height: 1.5;
+  }
+}
