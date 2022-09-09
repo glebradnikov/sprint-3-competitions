@@ -1,0 +1,20 @@
+.header__link {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.29;
+  text-decoration: none;
+  color: #151515;
+  transition: 1s;
+}
+
+.header__link:hover {
+  color: #ff3d00;
+  transition: .5s;
+}
+
+@media (max-width: 767px) {
+  .header__link {
+    font-size: 27px;
+    color: #fff;
+  }
+}

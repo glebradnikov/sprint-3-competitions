@@ -1,0 +1,33 @@
+.quote__image {
+  width: 100%;
+  max-width: 650px;
+  max-height: 460px;
+  object-fit: cover;
+}
+
+@media (max-width: 1279px) {
+  .quote__image {
+    max-width: 540px;
+  }
+}
+
+@media (max-width: 1023px) {
+  .quote__image {
+    max-width: 400px;
+  }
+}
+
+@media (max-width: 767px) {
+  .quote__image {
+    max-width: 284px;
+    min-height: 204px;
+  }
+}
+
+@media (max-width: 576px) {
+  .quote__image {
+    max-width: 100%;
+    padding: 20px 0 0;
+    border-top: 1px solid #e3e3e3;
+  }
+}

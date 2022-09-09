@@ -1,0 +1,47 @@
+.footer__email {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 360px;
+  min-height: 50px;
+  margin: 0 30px 0 0;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 2.15;
+  text-indent: 17px;
+  color: #151515;
+  border: 1px solid #c7c7c780;
+  border-radius: 4px;
+}
+
+.footer__email:hover {
+  border: 1px solid #24b47e;
+}
+
+.footer__email:focus {
+  outline: 0;
+  border: 1px solid #ff3d00;
+}
+
+.footer__email::placeholder {
+  color: #151515;
+  opacity: .7;
+}
+
+@media (max-width: 767px) {
+  .footer__email {
+    margin: 0 20px 0 0;
+  }
+}
+
+@media (max-width: 600px) {
+  .footer__email {
+    margin: 0 20px 20px 0;
+  }
+}
+
+@media (max-width: 576px) {
+  .footer__email {
+    max-width: 100%;
+  }
+}

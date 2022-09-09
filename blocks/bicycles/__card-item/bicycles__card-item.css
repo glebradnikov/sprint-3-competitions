@@ -1,0 +1,20 @@
+.bicycles__card-item:hover {
+  transform: scale(105%);
+}
+
+@media (max-width: 767px) {
+  .bicycles__card-item {
+    padding: 15px 15px 16px;
+    background: #f4f4f4;
+    border-radius: 20px;
+    filter: drop-shadow(0px 20px 140px rgba(0, 0, 0, 0.06));
+    font-size: 32px;
+    line-height: 1.25;
+  }
+}
+
+@media (max-width: 576px) {
+  .bicycles__card-item:nth-child(n+2) {
+    display: none;
+  }
+}

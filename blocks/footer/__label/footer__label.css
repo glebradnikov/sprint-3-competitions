@@ -1,0 +1,21 @@
+.footer__label {
+  display: block;
+  max-width: 229px;
+  margin: 0 0 50px 0;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.33;
+  color: #151515;
+}
+
+@media (max-width: 767px) {
+  .footer__label {
+    margin: 0 0 40px 0;
+  }
+}
+
+@media (max-width: 576px) {
+  .footer__label {
+    max-width: 100%;
+  }
+}
