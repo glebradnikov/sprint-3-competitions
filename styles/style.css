@@ -395,7 +395,7 @@
   list-style: none;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 576px) {
   .bicycles__card-list {
     margin: 0 0 20px 0;
     gap: 20px;
