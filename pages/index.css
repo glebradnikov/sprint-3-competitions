@@ -15,12 +15,33 @@
 
 @import url(../blocks/main/main.css);
 
+@import "../blocks/intro/intro.css";
+@import "../blocks/intro/__image/intro__image.css";
+@import "../blocks/intro/__title/intro__title.css";
+@import "../blocks/intro/__content/intro__content.css";
+@import "../blocks/intro/__paragraph/intro__paragraph.css";
+@import "../blocks/intro/__button/intro__button.css";
+@import "../blocks/intro/__signature/intro__signature.css";
+@import "../blocks/intro/__line/intro__line.css";
+@import "../blocks/intro/__signature/_text/intro__signature_text.css";
+
 @import url(../blocks/quote/quote.css);
 @import url(../blocks/quote/__image/quote__image.css);
 @import url(../blocks/quote/__content/quote__content.css);
 @import url(../blocks/quote/__text/quote__text.css);
 @import url(../blocks/quote/__author-name/quote__author-name.css);
 @import url(../blocks/quote/__author-profession/quote__author-profession.css);
+
+@import "../blocks/coverages/coverages.css";
+@import "../blocks/coverages/__content/coverages__content.css";
+@import "../blocks/coverages/__title/coverages__title.css";
+@import "../blocks/coverages/__paragraph/coverages__paragraph.css";
+@import "../blocks/coverages/__slider/coverages__slider.css";
+@import "../blocks/coverages/__slider-item/coverages__slider-item.css";
+@import "../blocks/coverages/__icon-background/coverages__icon-background.css";
+@import "../blocks/coverages/__icon/coverages__icon.css";
+@import "../blocks/coverages/__control/coverages__control.css";
+@import "../blocks/coverages/__button/coverages__button.css";
 
 @import url(../blocks/bicycles/bicycles.css);
 @import url(../blocks/bicycles/__header/bicycles__header.css);
@@ -38,6 +59,14 @@
 @import url(../blocks/bicycles/__image-caption/bicycles__image-caption.css);
 @import url(../blocks/bicycles/__dots/bicycles__dots.css);
 @import url(../blocks/bicycles/__dot/bicycles__dot.css);
+
+@import "../blocks/workout/workout.css";
+@import "../blocks/workout/__title/workout__title.css";
+@import "../blocks/workout/__paragraph/workout__paragraph.css";
+@import "../blocks/workout/__content/workout__content.css";
+@import "../blocks/workout/__links/workout__links.css";
+@import "../blocks/workout/__link/workout__link.css";
+@import "../blocks/workout/__image/workout__image.css";
 
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__container/footer__container.css);

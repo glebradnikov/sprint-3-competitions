@@ -1,0 +1,10 @@
+.coverages__icon-background {
+  position: absolute;
+  top: 348px;
+  left: 0px;
+  box-sizing: border-box;
+  width: 100px;
+  height: 40px;
+  padding: 12px 16px;
+  background: url(../../../images/icon_back.svg) center / cover;
+}

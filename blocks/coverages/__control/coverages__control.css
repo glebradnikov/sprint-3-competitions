@@ -1,0 +1,10 @@
+.coverages__control {
+  max-width: 120px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 60px;
+  margin-left: 120px;
+  row-gap: 20px;
+}

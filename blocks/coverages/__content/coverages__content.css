@@ -1,0 +1,8 @@
+.coverages__content {
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+    margin-left: 120px;
+    margin-bottom: 80px;
+    row-gap: 50px;
+}

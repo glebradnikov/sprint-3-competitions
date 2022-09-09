@@ -1,0 +1,7 @@
+.workout__content {
+  display: flex;
+  flex-direction: column;
+  margin-top: 150px;
+  margin-left: 120px;
+  margin-bottom: 120px;
+}
