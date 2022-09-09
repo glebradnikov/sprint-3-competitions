@@ -15,3 +15,17 @@ $(document).ready(function () {
     $('.page').removeClass('page_locked');
   });
 });
+
+// footer button
+
+$("input").on("input", function () {
+  if ($(this).val()) {
+    $("button").show();
+  } else {
+    $("button").hide();
+  }
+});
+$("button").click(function () {
+  $("input").val('');
+  $(this).hide();
+});
