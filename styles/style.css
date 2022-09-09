@@ -65,24 +65,79 @@
 .quote {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 120px 36px 60px;
+  padding: 120px 0 60px;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
   gap: 80px;
+}
+
+@media (max-width: 1279px) {
+  .quote {
+    padding: 120px 36px 60px;
+    gap: 60px;
+  }
+}
+
+@media (max-width: 1023px) {
+  .quote {
+    gap: 40px;
+    padding: 120px 27px 60px;
+  }
+}
+
+@media (max-width: 767px) {
+  .quote {
+    gap: 20px;
+    padding: 40px 18px;
+  }
+}
+
+@media (max-width: 576px) {
+  .quote {
+    flex-direction: column;
+    gap: 40px;
+  }
 }
 
 .quote__image {
   width: 100%;
   max-width: 650px;
   max-height: 460px;
+  object-fit: cover;
+}
+
+@media (max-width: 1279px) {
+  .quote__image {
+    max-width: 540px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .quote__image {
+    max-width: 400px;
+  }
+}
+
+@media (max-width: 767px) {
+  .quote__image {
+    max-width: 284px;
+    min-height: 204px;
+  }
+}
+
+@media (max-width: 576px) {
+  .quote__image {
+    max-width: 100%;
+    padding: 20px 0 0;
+    border-top: 1px solid #e3e3e3;
+  }
 }
 
 .quote__content {
   align-self: stretch;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
   justify-content: space-between;
 }
 
@@ -95,6 +150,20 @@
   color: #151515;
 }
 
+@media (max-width: 1023px) {
+  .quote__text {
+    font-size: 27px;
+  }
+}
+
+@media (max-width: 767px) {
+  .quote__text {
+    margin: 0 0 40px 0;
+    font-size: 23px;
+    line-height: 1.26;
+  }
+}
+
 .quote__author {}
 
 .quote__author-name {
@@ -105,6 +174,20 @@
   color: #151515;
 }
 
+@media (max-width: 1023px) {
+  .quote__author-name {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 767px) {
+  .quote__author-name {
+    margin: 0 0 4px 0;
+    font-size: 14px;
+    line-height: 1.57;
+  }
+}
+
 .quote__author-profession {
   margin: 0;
   font-size: 16px;
@@ -112,6 +195,19 @@
   line-height: 1.75;
   color: #222;
   opacity: .7;
+}
+
+@media (max-width: 1023px) {
+  .quote__author-profession {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 767px) {
+  .quote__author-profession {
+    font-size: 10px;
+    line-height: 1.6;
+  }
 }
 
 /* bicycles */
