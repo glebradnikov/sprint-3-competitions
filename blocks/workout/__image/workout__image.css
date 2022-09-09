@@ -1,8 +1,7 @@
 .workout__image {
-  width: 580px;
+  width: 100%;
+  max-width: 580px;
   height: 460px;
-  /* width: 100%; */
-  margin-top: 150px;
-  margin-right: 120px;
-  margin-bottom: 120px;
+  object-fit: cover;
+  overflow: hidden;
 }

@@ -1,7 +1,9 @@
 .intro__button {
-  width: 180px;
-  height: 50px;
+  width: 100%;
+  max-width: 180px;
+  min-height: 50px;
   background: #24B47E;
+  border: 0;
   border-radius: 4px;
 
   font-family: 'Inter';
@@ -14,4 +16,29 @@
 
   color: #FFFFFF;
   margin-bottom: 167px;
+}
+
+@media (max-width: 1279px) {
+  .intro__button {
+    margin: 0 0 130px 0;
+  }
+}
+
+@media (max-width: 1024px) {
+  .intro__button {
+    margin: 0 0 40px 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .intro__button {
+    font-size: 13px;
+    line-height: 1.46;
+  }
+}
+
+@media (max-width: 576px) {
+  .intro__button {
+    max-width: 100%;
+  }
 }

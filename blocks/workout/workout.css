@@ -1,8 +1,14 @@
 .workout {
-  max-width: 1440px;
+  max-width: 1200px;
   margin: 0 auto;
-  display: grid;
-  grid-template-columns: auto 1fr;
-  column-gap: 160px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   background: #F4F4F4;
+}
+
+@media (max-width: 1279px) {
+  .workout {
+    padding: 0 36px;
+  }
 }
