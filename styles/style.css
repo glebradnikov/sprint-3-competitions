@@ -256,6 +256,7 @@
   box-sizing: border-box;
   width: 100%;
   max-width: 360px;
+  min-height: 50px;
   margin: 0;
   padding: 11px 20px;
   font-size: 13px;
@@ -267,7 +268,7 @@
 }
 
 .footer__email:hover {
-  border: 1px solid #c7c7c7;
+  border: 1px solid #24b47e;
 }
 
 .footer__email:focus {
