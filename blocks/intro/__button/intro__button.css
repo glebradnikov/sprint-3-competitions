@@ -1,37 +1,39 @@
 .intro__button {
-  width: 100%;
   max-width: 180px;
   min-height: 50px;
-  background: #24B47E;
-  border: 0;
-  border-radius: 4px;
-
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 600;
+  margin: 0 0 167px 0;
+  grid-column: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-size: 14px;
-  line-height: 129%;
-  text-align: center;
+  font-weight: 600;
+  line-height: 1.29;
   letter-spacing: 1px;
-
-  color: #FFFFFF;
-  margin-bottom: 167px;
+  text-decoration: none;
+  color: #fff;
+  background: #24b47e;
+  border-radius: 4px;
+  transition: 1s;
 }
 
-@media (max-width: 1279px) {
-  .intro__button {
-    margin: 0 0 130px 0;
-  }
+.intro__button:hover {
+  background: #ff3d00;
+  transition: .5s;
 }
 
 @media (max-width: 1024px) {
   .intro__button {
-    margin: 0 0 40px 0;
+    margin: 0 0 60px 0;
+    font-size: 16px;
   }
 }
 
 @media (max-width: 767px) {
   .intro__button {
+    max-width: 140px;
+    min-height: 46px;
+    margin: 0 0 40px 0;
     font-size: 13px;
     line-height: 1.46;
   }
@@ -40,5 +42,6 @@
 @media (max-width: 576px) {
   .intro__button {
     max-width: 100%;
+    margin: 0;
   }
 }

@@ -19,8 +19,7 @@
 
 @media (max-width: 767px) {
   .quote__image {
-    max-width: 284px;
-    min-height: 204px;
+    max-width: 320px;
   }
 }
 

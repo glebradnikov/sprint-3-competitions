@@ -1,5 +1,10 @@
+.bicycles__card-item {
+  transition: 1s;
+}
+
 .bicycles__card-item:hover {
   transform: scale(105%);
+  transition: .5s;
 }
 
 @media (max-width: 767px) {

@@ -1,0 +1,23 @@
+.intro__company {
+  margin: 0;
+  grid-column: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1;
+  color: #151515;
+}
+
+@media (max-width: 767px) {
+  .intro__company {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 576px) {
+  .intro__company {
+    display: none;
+  }
+}

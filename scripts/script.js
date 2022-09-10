@@ -16,14 +16,14 @@ $(document).ready(function () {
 
 // footer button
 
-$("input").on("input", function () {
+$('.footer__email').on('.footer__email', function () {
   if ($(this).val()) {
-    $("button").show();
+    $('.footer__button').show();
   } else {
-    $("button").hide();
+    $('.footer__button').hide();
   }
 });
-$("button").click(function () {
-  $("input").val('');
+$('.footer__button').click(function () {
+  $('.footer__email').val('');
   $(this).hide();
 });

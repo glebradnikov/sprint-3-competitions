@@ -1,6 +1,7 @@
 .intro__line {
-  width: 132px;
+  width: 100%;
+  max-width: 132px;
+  margin: 0 0 0 30px;
   height: 2px;
-  background: #D7D4D4;
-  margin: 0;
+  background: #d7d4d4;
 }

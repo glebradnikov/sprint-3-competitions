@@ -15,15 +15,14 @@
 
 @import url(../blocks/main/main.css);
 
-@import "../blocks/intro/intro.css";
-@import "../blocks/intro/__image/intro__image.css";
-@import "../blocks/intro/__title/intro__title.css";
-@import "../blocks/intro/__content/intro__content.css";
-@import "../blocks/intro/__paragraph/intro__paragraph.css";
-@import "../blocks/intro/__button/intro__button.css";
-@import "../blocks/intro/__signature/intro__signature.css";
-@import "../blocks/intro/__line/intro__line.css";
-@import "../blocks/intro/__signature/_text/intro__signature_text.css";
+@import url(../blocks/intro/intro.css);
+@import url(../blocks/intro/__content/intro__content.css);
+@import url(../blocks/intro/__title/intro__title.css);
+@import url(../blocks/intro/__text/intro__text.css);
+@import url(../blocks/intro/__button/intro__button.css);
+@import url(../blocks/intro/__company/intro__company.css);
+@import url(../blocks/intro/__line/intro__line.css);
+@import url(../blocks/intro/__image/intro__image.css);
 
 @import url(../blocks/quote/quote.css);
 @import url(../blocks/quote/__image/quote__image.css);
