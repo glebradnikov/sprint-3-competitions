@@ -16,7 +16,7 @@ $(document).ready(function () {
 
 // footer button
 
-$('.footer__email').on('.footer__email', function () {
+$('input').on('input', function () {
   if ($(this).val()) {
     $('.footer__button').show();
   } else {
@@ -24,6 +24,6 @@ $('.footer__email').on('.footer__email', function () {
   }
 });
 $('.footer__button').click(function () {
-  $('.footer__email').val('');
+  $('input').val('');
   $(this).hide();
 });
