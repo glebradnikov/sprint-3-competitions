@@ -1,4 +1,5 @@
 .quote__content {
+  margin: 0;
   align-self: stretch;
   display: flex;
   flex-direction: column;

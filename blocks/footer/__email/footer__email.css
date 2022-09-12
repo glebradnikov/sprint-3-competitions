@@ -10,8 +10,14 @@
   line-height: 2.15;
   text-indent: 17px;
   color: #151515;
+  background: #efefef;
   border: 1px solid #c7c7c780;
   border-radius: 4px;
+  cursor: pointer;
+}
+
+.footer__email:focus {
+  cursor: text;
 }
 
 .footer__email:hover {
