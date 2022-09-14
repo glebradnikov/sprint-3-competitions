@@ -4,24 +4,6 @@
   padding: 60px 0;
 }
 
-@media (max-width: 1279px) {
-  .surfaces {
-    padding: 60px 36px;
-  }
-}
-
-@media (max-width: 1024px) {
-  .surfaces {
-    padding: 60px 27px;
-  }
-}
-
-@media (max-width: 767px) {
-  .surfaces {
-    padding: 40px 18px;
-  }
-}
-
 .surfaces__title {
   max-width: 460px;
   margin: 0 0 50px;
@@ -32,9 +14,16 @@
   color: #151515;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1279px) {
+  .surfaces__title {
+    padding: 60px 36px;
+  }
+}
+
+@media (max-width: 1023px) {
   .surfaces__title {
     margin: 0 0 30px;
+    padding: 60px 27px;
     font-size: 42px;
   }
 }
@@ -42,6 +31,7 @@
 @media (max-width: 767px) {
   .surfaces__title {
     margin: 0 0 20px;
+    padding: 40px 18px;
     font-size: 32px;
     line-height: 1.25;
   }
@@ -56,9 +46,16 @@
   color: #222;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1279px) {
+  .surfaces__text {
+    padding: 60px 36px;
+  }
+}
+
+@media (max-width: 1023px) {
   .surfaces__text {
     margin: 0 0 40px;
+    padding: 60px 27px;
     font-size: 16px;
   }
 }
@@ -66,6 +63,7 @@
 @media (max-width: 767px) {
   .surfaces__text {
     margin: 0 0 20px;
+    padding: 40px 18px;
     font-size: 12px;
     line-height: 1.5;
   }
@@ -73,16 +71,22 @@
 
 .surfaces__images {
   position: relative;
-  margin: 0 0 50px 0;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  margin: 0 0 50px;
+  display: grid;
+  grid-template-columns: 650px 1fr;
   gap: 40px;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1279px) {
+  .surfaces__images {
+    padding: 0 0 0 36px;
+  }
+}
+
+@media (max-width: 1023px) {
   .surfaces__images {
     margin: 0 0 30px 0;
+    padding: 0 0 0 27px;
     gap: 30px;
   }
 }
@@ -90,6 +94,7 @@
 @media (max-width: 767px) {
   .surfaces__images {
     margin: 0 0 20px 0;
+    padding: 0 0 0 18px;
     gap: 20px;
   }
 }
@@ -97,7 +102,7 @@
 .surfaces__image {
   width: 100%;
   max-width: 650px;
-  max-height: 400px;
+  height: 100%;
   object-fit: cover;
 }
 
@@ -160,4 +165,172 @@
   color: #fff;
   background: #ff3d00;
   transition: .5s;
+}
+
+.workouts {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 150px 0 120px;
+}
+
+@media (max-width: 1279px) {
+  .workouts {
+    padding: 150px 36px 120px;
+  }
+}
+
+@media (max-width: 1023px) {
+  .workouts {
+    padding: 150px 27px 120px;
+  }
+}
+
+@media (max-width: 767px) {
+  .workouts {
+    padding: 40px 18px 60px;
+  }
+}
+
+.workouts__content {
+  display: grid;
+  grid-template-columns: 1fr 580px;
+  justify-content: space-between;
+  gap: 0 160px;
+}
+
+@media (max-width: 1279px) {
+  .workouts__content {
+    grid-template-columns: 1fr 540px;
+    gap: 0 80px;
+  }
+}
+
+@media (max-width: 1023px) {
+  .workouts__content {
+    grid-template-columns: 1fr 400px;
+    gap: 0 40px;
+  }
+}
+
+@media (max-width: 767px) {
+  .workouts__content {
+    grid-template-columns: 1fr 320px;
+    gap: 0 20px;
+  }
+}
+
+@media (max-width: 576px) {
+  .workouts__content {
+    grid-template-columns: 1fr;
+  }
+}
+
+.workouts__title {
+  margin: 0 0 50px;
+  font-size: 55px;
+  font-weight: 700;
+  line-height: 1.09;
+  letter-spacing: -.5px;
+  color: #151515;
+}
+
+@media (max-width: 1023px) {
+  .workouts__title {
+    font-size: 42px;
+  }
+}
+
+@media (max-width: 767px) {
+  .workouts__title {
+    margin: 0 0 50px;
+    font-size: 32px;
+    line-height: 1.25;
+  }
+}
+
+@media (max-width: 576px) {
+  .workouts__title {
+    padding: 40px 0 0;
+    border-top: 1px solid #e3e3e3;
+  }
+}
+
+
+.workouts__text {
+  max-width: 460px;
+  margin: 0;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.56;
+  color: #222;
+}
+
+@media (max-width: 1023px) {
+  .workouts__text {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 767px) {
+  .workouts__text {
+    margin: 0 0 40px;
+    font-size: 12px;
+    line-height: 1.5;
+  }
+}
+
+.workouts__image {
+  width: 100%;
+  max-width: 580px;
+  max-height: 460px;
+  grid-row: 1 / 5;
+  grid-column: 2;
+  object-fit: cover;
+}
+
+@media (max-width: 767px) {
+  .workouts__image {}
+}
+
+@media (max-width: 576px) {
+  .workouts__image {
+    max-width: 100%;
+    margin: 0 0 40px;
+    grid-row: 2;
+    grid-column: 1;
+  }
+}
+
+.workouts__links {
+  max-width: 460px;
+  grid-row: 4;
+  display: flex;
+  gap: 30px;
+}
+
+.workouts__link {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.56;
+  text-decoration: none;
+  color: #151515;
+  transition: 1s;
+}
+
+.workouts__link:hover {
+  color: #ff3d00;
+  transition: .5s;
+}
+
+@media (max-width: 1023px) {
+  .workouts__link {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 767px) {
+  .workouts__link {
+    font-size: 14px;
+    line-height: 1.43;
+  }
 }
